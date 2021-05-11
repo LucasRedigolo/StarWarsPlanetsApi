@@ -1,9 +1,7 @@
 package com.starwars.starwarsplanets.controllers;
 
-import com.starwars.starwarsplanets.document.Film;
 import com.starwars.starwarsplanets.document.Planet;
 import com.starwars.starwarsplanets.responses.Response;
-import com.starwars.starwarsplanets.services.FilmService;
 import com.starwars.starwarsplanets.services.PlanetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

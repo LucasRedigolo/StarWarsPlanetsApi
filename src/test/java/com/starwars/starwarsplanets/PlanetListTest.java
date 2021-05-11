@@ -31,6 +31,6 @@ public class PlanetListTest extends BaseTest{
         ResponseEntity<String> result = restTemplate.getForEntity(uri, String.class);
 
         Assert.assertEquals(200, result.getStatusCodeValue());
-        Assert.assertEquals(true, result.getBody().contains("data"));
+        Assert.assertTrue(result.getBody().contains("data"));
     }
 }

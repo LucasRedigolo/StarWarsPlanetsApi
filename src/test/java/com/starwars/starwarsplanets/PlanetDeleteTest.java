@@ -1,12 +1,9 @@
 package com.starwars.starwarsplanets;
 
-import com.starwars.starwarsplanets.document.Film;
 import com.starwars.starwarsplanets.document.Planet;
 import com.starwars.starwarsplanets.repositories.PlanetRepository;
 import com.starwars.starwarsplanets.services.impl.PlanetServiceImpl;
-import org.json.JSONArray;
 import org.json.JSONObject;
-import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.server.LocalServerPort;
@@ -15,8 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 public class PlanetDeleteTest extends BaseTest{

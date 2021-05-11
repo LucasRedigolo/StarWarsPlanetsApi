@@ -5,7 +5,6 @@ import com.starwars.starwarsplanets.repositories.PlanetRepository;
 import com.starwars.starwarsplanets.services.impl.PlanetServiceImpl;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,9 +28,6 @@ public class PlanetUpdateTest extends BaseTest {
 
     @Autowired
     private PlanetRepository planetRepository;
-
-    @Autowired
-    private PlanetServiceImpl planetService;
 
     @Test
     public void shouldUpdateAPlanet() throws URISyntaxException, JSONException {
