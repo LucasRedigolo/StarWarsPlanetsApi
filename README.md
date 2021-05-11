@@ -8,12 +8,8 @@ O projeto foi desenvolvido em Java 11, Spring Boot, tem como banco de dados uma 
 
 As principais funções da **API** são:
 
-- Inserir um **planeta** com os seguintes parâmetros:
-
-  	name: String;
-    	climate: String;
-    	terrain: String;
-    	films: List < Film> 
+- Inserir um **planeta** com os seguintes parâmetros:  
+  `name, climate, terrain, films`
 
 -  Listar todos os planetas cadastrados;
 - Buscar um planeta por nome;
